@@ -48,7 +48,7 @@ public class ContainerShip
 
     public void LoadContainers(List<Container> containers)
     {
-        foreach (var container in Containers)
+        foreach (var container in containers)
         {
             LoadContainer(container);
         }
@@ -74,6 +74,11 @@ public class ContainerShip
 
     public Container ReplaceContainer(string serialNumber, Container newContainer)
     {
+        if (newContainer == null)
+        {
+            throw new ArgumentNullException(nameof(newContainer), "new container is null");
+        }
+        
         var container = UnloadContainer(serialNumber);
         LoadContainer(newContainer);
         return container;
@@ -81,6 +86,11 @@ public class ContainerShip
 
     public void TransferContainer(ContainerShip targetShip, string serialNumber)
     {
+        if (targetShip == null)
+        {
+            throw new ArgumentNullException(nameof(targetShip), "Target ship is null");
+        }
+        
         var container = Containers.FirstOrDefault(c => c.SerialNumber == serialNumber);
         if (container == null)
         {
