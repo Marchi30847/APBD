@@ -12,3 +12,4 @@
 /Users/yurimarchenko/RiderProjects/APBD1.1/APBD2/obj/Debug/net9.0/APBD2.pdb
 /Users/yurimarchenko/RiderProjects/APBD1.1/APBD2/obj/Debug/net9.0/APBD2.genruntimeconfig.cache
 /Users/yurimarchenko/RiderProjects/APBD1.1/APBD2/obj/Debug/net9.0/ref/APBD2.dll
+/Users/yurimarchenko/RiderProjects/APBD1.1/APBD2/obj/Debug/net9.0/APBD2.sourcelink.json

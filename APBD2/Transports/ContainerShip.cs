@@ -1,16 +1,17 @@
+using APBD2.Containers.Abstract;
+
 namespace APBD2.Transports;
 
 using System;
 using System.Text;
 using System.Collections.Generic;
-using Containers;
 
 public class ContainerShip
 {
     public double MaxSpeed { get; }
     public int MaxContainerCapacity { get; }
     public double MaxWeightCapacity { get; }
-    private List<Container> Containers { get; } = new List<Container>();
+    public List<Container> Containers { get; } = new List<Container>();
 
     public ContainerShip(double maxSpeed, int maxContainerCapacity, double maxWeightCapacity)
     {
@@ -71,10 +72,11 @@ public class ContainerShip
         return container;
     }
 
-    public void ReplaceContainer(string serialNumber, Container newContainer)
+    public Container ReplaceContainer(string serialNumber, Container newContainer)
     {
-        UnloadContainer(serialNumber);
+        var container = UnloadContainer(serialNumber);
         LoadContainer(newContainer);
+        return container;
     }
 
     public void TransferContainer(ContainerShip targetShip, string serialNumber)

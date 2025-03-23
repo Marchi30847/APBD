@@ -1,7 +1,7 @@
-using APBD2.Exceptions;
 using System.Text;
+using APBD2.Exceptions;
 
-namespace APBD2.Containers;
+namespace APBD2.Containers.Abstract;
 
 public abstract class Container
 {

@@ -1,6 +1,6 @@
 using APBD2.Interfaces;
 
-namespace APBD2.Containers;
+namespace APBD2.Containers.Abstract;
 
 public abstract class HazardousContainer : Container, IHazardNotifier
 {

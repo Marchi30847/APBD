@@ -1,7 +1,6 @@
 using APBD2.Enums;
 
-namespace APBD2;
-
+namespace APBD2.Utils;
 
 public class TemperatureValidator
 {
@@ -27,7 +26,7 @@ public class TemperatureValidator
             ProductType.Eggs => 19.0,
             _ => throw new ArgumentException("Invalid productType")
         };
-        
+
         return temperature;
     }
 }

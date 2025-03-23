@@ -2,7 +2,9 @@ namespace APBD2;
 
 using Transports;
 using Containers;
+using Containers.Abstract;
 using Enums;
+using System;
 
 class Program
 {
@@ -30,7 +32,7 @@ class Program
         {
             ship1.LoadContainer(container1);
             ship1.LoadContainer(container2);
-            Console.WriteLine("Containers successfully loaded");
+            Console.WriteLine("Containers successfully loaded.");
         }
         catch (Exception e)
         {
@@ -42,9 +44,10 @@ class Program
 
         try
         {
+            //ship1.TransferContainer(ship2, container1.SerialNumber);
             Container unloadContainer = ship1.UnloadContainer(container1.SerialNumber);
             ship2.LoadContainer(unloadContainer);
-            Console.WriteLine($"Container {unloadContainer.SerialNumber} transferred to Poseidon.");
+            Console.WriteLine($"Container {unloadContainer.SerialNumber} transferred.");
         }
         catch (Exception e)
         {
@@ -54,5 +57,19 @@ class Program
         Console.WriteLine("\nFinal ship statuses:");
         Console.WriteLine(ship1);
         Console.WriteLine(ship2);
+
+        try
+        {
+            Container container4 = new GasContainer(2.5, 6, 2, 10, 12);
+            ship1.ReplaceContainer(container2.SerialNumber, container4);
+            Console.WriteLine($"Container {container2.SerialNumber} replaced with {container4.SerialNumber}.");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Error: {e.Message}");
+        }
+
+        Console.WriteLine("\nShip details after container replacement:");
+        Console.WriteLine(ship1);
     }
 }

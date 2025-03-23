@@ -10,6 +10,24 @@
   <component name="ChangeListManager">
     <list default="true" id="27f30661-3247-44cb-bba0-6951ffd6e23f" name="Changes" comment="Task completed">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APBD1.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APBD1.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/Application.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Application.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/Containers/Abstract/Container.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Containers/Abstract/Container.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/Containers/Abstract/HazardousContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Containers/Abstract/HazardousContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/Containers/GasContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Containers/GasContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/Containers/LiquidContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Containers/LiquidContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/Containers/RefrigeratedContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Containers/RefrigeratedContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/Transports/ContainerShip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Transports/ContainerShip.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/Utils/TemperatureValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Utils/TemperatureValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/bin/Debug/net9.0/APBD2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/bin/Debug/net9.0/APBD2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/bin/Debug/net9.0/APBD2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/bin/Debug/net9.0/APBD2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/ref/APBD2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/ref/APBD2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/refint/APBD2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/refint/APBD2.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +67,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;.NET Project.APBD1.1.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.APBD2.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -87,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742283771032</updated>
-      <workItem from="1742283772825" duration="19626000" />
+      <workItem from="1742283772825" duration="20924000" />
     </task>
     <task id="LOCAL-00001" summary="Task completed">
       <option name="closed" value="true" />
@@ -97,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742767785801</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Task completed">
+      <option name="closed" value="true" />
+      <created>1742768085038</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742768085038</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
