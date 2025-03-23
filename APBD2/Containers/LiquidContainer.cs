@@ -14,7 +14,7 @@ public class LiquidContainer : HazardousContainer
         double depth,
         double tareWeight,
         double maxPayload,
-        bool isCargoHazardous 
+        bool isCargoHazardous
     )
         : base(
             height,
@@ -30,13 +30,13 @@ public class LiquidContainer : HazardousContainer
     }
 
     protected override bool CanLoadCargo(double mass) => CargoMass + mass <= _allowedMaxPayload;
-    
+
     public override string ToString()
     {
         var builder = new StringBuilder();
         builder.Append(base.ToString());
         builder.Append($"max payload: {_allowedMaxPayload}, hazardous: {IsCargoHazardous}");
-        
+
         return builder.ToString();
     }
 }

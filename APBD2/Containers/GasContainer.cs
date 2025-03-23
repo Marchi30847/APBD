@@ -24,15 +24,15 @@ public class GasContainer : HazardousContainer
     {
         Pressure = pressure > 0 ? pressure : throw new ArgumentException("Pressure must be greater than zero");
     }
-    
+
     public override void EmptyCargo() => CargoMass *= 0.05;
-    
+
     public override string ToString()
     {
         var builder = new StringBuilder();
         builder.Append(base.ToString());
         builder.Append($"pressure: {Pressure}");
-        
+
         return builder.ToString();
     }
 }

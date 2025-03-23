@@ -36,13 +36,13 @@ public class RefrigeratedContainer : Container
             throw new ArgumentException("Maintained temperature is not valid for the given product");
         }
     }
-    
+
     public override string ToString()
     {
         var builder = new StringBuilder();
         builder.Append(base.ToString());
         builder.Append($"product type: {ProductType}, maintained temperature: {MaintainedTemperature}");
-        
+
         return builder.ToString();
     }
 }

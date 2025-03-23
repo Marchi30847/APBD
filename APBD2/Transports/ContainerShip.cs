@@ -60,7 +60,7 @@ public class ContainerShip
         {
             throw new ArgumentNullException(nameof(serialNumber), "serial number is null");
         }
-        
+
         var container = Containers.FirstOrDefault(c => c.SerialNumber == serialNumber);
         if (container == null)
         {
@@ -102,7 +102,6 @@ public class ContainerShip
 
         return totalWeight;
     }
-
 
     public override string ToString()
     {
