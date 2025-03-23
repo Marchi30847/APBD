@@ -6,7 +6,7 @@ using Enums;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] _)
     {
         Console.WriteLine("Container Ship Management");
 
