@@ -8,22 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f30661-3247-44cb-bba0-6951ffd6e23f" name="Changes" comment="Task completed">
+    <list default="true" id="27f30661-3247-44cb-bba0-6951ffd6e23f" name="Changes" comment="Fixed bugs in ContainerShip.cs">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APBD1.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APBD1.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD2/Application.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Application.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD2/Containers/Abstract/Container.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Containers/Abstract/Container.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD2/Containers/Abstract/HazardousContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Containers/Abstract/HazardousContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD2/Containers/GasContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Containers/GasContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD2/Containers/LiquidContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Containers/LiquidContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD2/Containers/RefrigeratedContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Containers/RefrigeratedContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD2/Transports/ContainerShip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Transports/ContainerShip.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD2/Utils/TemperatureValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/Utils/TemperatureValidator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APBD2/bin/Debug/net9.0/APBD2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/bin/Debug/net9.0/APBD2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APBD2/bin/Debug/net9.0/APBD2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/bin/Debug/net9.0/APBD2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/APBD2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/ref/APBD2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APBD2/obj/Debug/net9.0/ref/APBD2.dll" afterDir="false" />
@@ -106,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742283771032</updated>
-      <workItem from="1742283772825" duration="20924000" />
+      <workItem from="1742283772825" duration="25668000" />
     </task>
     <task id="LOCAL-00001" summary="Task completed">
       <option name="closed" value="true" />
@@ -124,7 +114,31 @@
       <option name="project" value="LOCAL" />
       <updated>1742768085038</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactored Main method">
+      <option name="closed" value="true" />
+      <created>1742769236168</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742769236168</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Final version">
+      <option name="closed" value="true" />
+      <created>1742769428630</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742769428630</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed bugs in ContainerShip.cs">
+      <option name="closed" value="true" />
+      <created>1742770235113</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742770235113</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +149,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Task completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task completed" />
+    <MESSAGE value="Refactored Main method" />
+    <MESSAGE value="Final version" />
+    <MESSAGE value="Fixed bugs in ContainerShip.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs in ContainerShip.cs" />
   </component>
 </project>

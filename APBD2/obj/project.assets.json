@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yurimarchenko/RiderProjects/APBD1.1/APBD2/APBD2.csproj",
+      "projectUniqueName": "/Users/yurimarchenko/RiderProjects/APBD/APBD2/APBD2.csproj",
       "projectName": "APBD2",
-      "projectPath": "/Users/yurimarchenko/RiderProjects/APBD1.1/APBD2/APBD2.csproj",
+      "projectPath": "/Users/yurimarchenko/RiderProjects/APBD/APBD2/APBD2.csproj",
       "packagesPath": "/Users/yurimarchenko/.nuget/packages/",
-      "outputPath": "/Users/yurimarchenko/RiderProjects/APBD1.1/APBD2/obj/",
+      "outputPath": "/Users/yurimarchenko/RiderProjects/APBD/APBD2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yurimarchenko/.nuget/NuGet/NuGet.Config"
