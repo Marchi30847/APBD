@@ -7,10 +7,24 @@ namespace LegacyApp.Services
 {
     public class UserService : IUserService
     {
-        public UserService(){}
+        private readonly IUserValidatorService _userValidatorService;
+
+        public UserService() : this(new UserValidatorService())
+        {
+        }
+
+        public UserService(IUserValidatorService userValidatorService)
+        {
+            _userValidatorService = userValidatorService;
+        }
+
         public bool AddUser(string firstName, string lastName, string email, DateTime dateOfBirth, int clientId)
         {
-            if (!(isNameValid(firstName, lastName) && isEmailValid(email) && isAgeValid(dateOfBirth)))
+            var validName = _userValidatorService.IsNameValid(firstName, lastName);
+            var validEmail = _userValidatorService.IsEmailValid(email);
+            var validAge = _userValidatorService.IsAgeValid(dateOfBirth);
+
+            if (!(validName && validEmail && validAge))
             {
                 return false;
             }
@@ -56,39 +70,6 @@ namespace LegacyApp.Services
             }
 
             UserDataAccess.AddUser(user);
-            return true;
-        }
-
-        private bool isNameValid(string firstName, string lastName)
-        {
-            if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName))
-            {
-                return false;
-            }
-
-            return true;
-        }
-
-        private bool isEmailValid(string email)
-        {
-            if (!email.Contains("@") && !email.Contains("."))
-            {
-                return false;
-            }
-
-            return true;
-        }
-
-        private bool isAgeValid(DateTime dateOfBirth)
-        {
-            var now = DateTime.Now;
-            int age = now.Year - dateOfBirth.Year;
-            if (now.Month < dateOfBirth.Month || (now.Month == dateOfBirth.Month && now.Day < dateOfBirth.Day)) age--;
-
-            if (age < 21)
-            {
-                return false;
-            }
             return true;
         }
     }
